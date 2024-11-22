@@ -1,0 +1,122 @@
+.table.dataTable thead .sorting {
+    background-image: none !important;
+}
+
+.table {
+    width: 100% !important;
+}
+
+.theme-blush .table.theme-color thead th {
+    background: #2d3191 !important;
+}
+
+.btn-danger {
+    background-color: #ed1c24 !important;
+}
+
+.btn-primary {
+    background: #2d3191 !important;
+}
+
+.theme-blush .sidebar .menu .list a:hover {
+    color: #2d3191 !important;
+}
+
+.theme-blush .sidebar .menu .list li.active>:first-child span {
+    color: #2d3191 !important;
+}
+
+.theme-blush .sidebar .menu .list li.active>:first-child i {
+    color: #2d3191 !important;
+}
+
+.theme-blush .navbar-right .navbar-nav>li>a:hover {
+    background: #2d3191 !important;
+}
+
+.table.dataTable.no-footer {
+    border-bottom: none !important;
+}
+
+.make_main_div_single {
+    margin-bottom: 0 !important;
+}
+
+.block-header {
+    padding: 10px 0px !important;
+}
+
+.container-fluid {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+.card_height {
+    height: 350px !important;
+}
+
+.text_css {
+    color: #2d3092 !important;
+}
+
+.footer {
+    position: fixed;
+    /* left: 0; */
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background: #fff;
+    padding-left: 20px;
+}
+.select2-container .select2-choice {
+    height: calc(2.25rem + 1px) !important;
+    padding: .375rem .75rem !important;
+    box-shadow: none !important;
+    background-image: linear-gradient(to top, #fff 0%, #fff 50%) !important;
+}
+
+.select2-container .select2-choice:hover {
+    border: 1px solid grey !important;
+    background-image: linear-gradient(to top, #fff 0%, #fff 50%) !important;
+}
+.select2-container .select2-choice .select2-arrow {
+    top: 3px !important;
+    border-left:none !important;
+    background: none !important;
+    background-image: none !important;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+@media screen and (max-width:768px) {
+.row{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.footer {
+    padding-left: 0px;
+}
+.col-sm-12{
+        padding-right: 0;
+   padding-left: 0;
+}
+    .block-header .col-lg-5.col-md-6.col-sm-12 {
+      display: block !important;
+    }
+    .block-header .btn-success {
+        right: 51px !important;
+    margin-top: -21px !important;
+    }
+}
+.dropify-wrapper input {
+    z-index: 1 !important;
+}
